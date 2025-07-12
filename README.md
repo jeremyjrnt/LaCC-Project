@@ -40,18 +40,24 @@ The project uses fMRI data from:
 
 🧪 **Pereira et al., 2018 — Naturalistic fMRI Benchmark Dataset**
 
-- 📁 **Experiment 1**: 180 individual concepts presented with sentence, word cloud, and image
-  - Used for word-level decoding and inter-subject generalization
-  - Files: `M##_avg.csv` (averaged voxel responses per subject)
+- 📁 **Experiment 1**: 180 individual concepts presented with sentence, word cloud, and image  
+  - Used for word-level decoding and inter-subject generalization  
+  - Files: `M##_avg.csv` (averaged voxel responses per subject)  
+  - ✅ In this repository, we provide the PCA-projected versions of these vectors:  
+    `M##_avg_pca.csv` for subjects 01 to 15 (each reduced to 180 dimensions using PCA)
 
-- 📁 **Experiment 2**: 384 sentences across 96 passages (24 topics)
-  - Used for sentence-level decoding and encoding
+- 📁 **Experiment 2**: 384 sentences across 96 passages (24 topics)  
+  - Used for sentence-level decoding and encoding  
   - File: `EXP2.pkl` and sentence embeddings (GloVe, BERT)
 
-- 📁 **Experiment 3**: 243 new sentences from unseen topics
+- 📁 **Experiment 3**: 243 new sentences from unseen topics  
   - Used to evaluate generalization of sentence decoders
 
 ---
+
+🔗 **Download the original dataset** from the MIT EvLab repository:  
+👉 [https://web.mit.edu/evlab//sites/default/files/documents/index2.html](https://web.mit.edu/evlab//sites/default/files/documents/index2.html)
+
 
 🔗 **Download the original dataset** from the MIT EvLab repository:  
 👉 [https://web.mit.edu/evlab//sites/default/files/documents/index2.html](https://web.mit.edu/evlab//sites/default/files/documents/index2.html)
