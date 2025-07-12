@@ -34,6 +34,30 @@ All results, visualizations, and evaluations are contained in a single notebook:
 
 ---
 
+## 🧠 Data Used
+
+The project uses fMRI data from:
+
+🧪 **Pereira et al., 2018 — Naturalistic fMRI Benchmark Dataset**
+
+- 📁 **Experiment 1**: 180 individual concepts presented with sentence, word cloud, and image
+  - Used for word-level decoding and inter-subject generalization
+  - Files: `M##_avg.csv` (averaged voxel responses per subject)
+
+- 📁 **Experiment 2**: 384 sentences across 96 passages (24 topics)
+  - Used for sentence-level decoding and encoding
+  - File: `EXP2.pkl` and sentence embeddings (GloVe, BERT)
+
+- 📁 **Experiment 3**: 243 new sentences from unseen topics
+  - Used to evaluate generalization of sentence decoders
+
+---
+
+🔗 **Download the original dataset** from the MIT EvLab repository:  
+👉 [https://web.mit.edu/evlab//sites/default/files/documents/index2.html](https://web.mit.edu/evlab//sites/default/files/documents/index2.html)
+
+---
+
 ## 🚀 Running the Notebook
 
 1. Clone the repository:
